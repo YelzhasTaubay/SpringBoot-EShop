@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Shop</title>
+</head>
+
+
+    <div th:insert="~{fragments/menu :: #nav-menu}"></div>
+
+    <h2>Amount clicks -> <b th:text="${amountClicks}">10</b></h2>
+    <h2>Your UUID: -> <b th:text="${uuid}">10</b></h2>
+
+
+
+</body>
+</html>
